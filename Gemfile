@@ -28,7 +28,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'thor', '0.19.1'
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'activeadmin'
 
+# Plus integrations with:
+gem 'devise'
+gem 'cancan' # or cancancan
+gem 'draper'
+gem 'pundit'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
